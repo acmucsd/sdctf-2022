@@ -1,0 +1,1 @@
+The logs inside the logs.tar file should be used instead of the logs made by the generator script since the script doesn't take into account the context of the terminal operations in the revised log file. Extract the logs.tar into ../build/public/ when setting up the challenge

@@ -1,0 +1,16 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: freeflag
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "HTTPS"
+        targetPort: 1337
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/freeflag-challenge:308e61e68d6b97a64969e1429658729f77c33492ea99f75f5fa2e3d3a4b50d1a

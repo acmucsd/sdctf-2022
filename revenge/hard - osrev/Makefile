@@ -1,0 +1,79 @@
+
+U:=0
+UI:=1
+UII:=2
+UIII:=3
+UIIII:=4
+UIIIII:=5
+UIIIIII:=6
+UIIIIIII:=7
+UIIIIIIII:=8
+UIIIIIIIII:=9
+UIIIIIIIIII:=a
+UIIIIIIIIIII:=b
+UIIIIIIIIIIII:=c
+C:=IIIIIIIIIIIII
+CI:=IIIIIIIIIIII
+CII:=IIIIIIIIIII
+CIII:=IIIIIIIIII
+CIIII:=IIIIIIIII
+CIIIII:=IIIIIIII
+CIIIIII:=IIIIIII
+CIIIIIII:=IIIIII
+CIIIIIIII:=IIIII
+CIIIIIIIII:=IIII
+CIIIIIIIIII:=III
+CIIIIIIIIIII:=II
+CIIIIIIIIIIII:=I
+CIIIIIIIIIIIII:=
+var_0:=I II III IIII IIIII IIIIII IIIIIII IIIIIIII IIIIIIIII 
+var_1:=IIIIIIIIIIIII
+var_2:=0 1 2 3 4 5 6 7 8 9 a b c
+var_3:=0 a b c
+S_0:=
+S_a:=IIIIIIIIII
+S_b:=IIIIIIIIIII
+S_c:=IIIIIIIIIIII
+var_4 = $(if $(filter $1,$(var_2)),$(if $(filter $1,$(var_3)),$(S_$1),$(word $1, $(var_0))),$(var_7))
+var_5 := 1618a9775112957a1ab9663590a43c38712c5cb862c238cc45195131c39363b93283b6ac5acb06a914c6955b209a021a82687884b64c12cc229a1ab89b23615338b6b43088299998b548916570025b1ab2611009c31c03ccc07c0485b3936748ab31b920c66c333c03349634742925bca
+var_6 := 17575769932901767201cb252628b134bb9c35517913c499314b532287859066b5a051a2bc314bcc8860bc125a0884ca552480176b9118aa1826016bb8c1b012180a5a80b392c5a7546454056c4274280a6a56b379b0bb974757378995ca7a789a3b637a87638436cbb48c8258b272742
+var_7 = $(error Invalid build key format!)
+var_8 = $(error Invalid build key!)
+var_9 = $(if $1,,A)
+var_10 = $(wordlist 2,$(words $1),A $1)
+var_11 = $(wordlist 2,$(words $1),$1)
+var_12 = U$1
+var_13 = $(subst U,,$1)
+var_14 = $(U$1)
+var_15 = $(C$1)
+var_16 = $(subst $(var_1),C,$1)
+var_17 = $(subst I,,$1)
+var_18 = $(subst C,,$1)
+var_19 = $(call var_16,$1$(call var_15,$2))
+var_20 = $(call var_19,$(call var_13,$1),$(call var_13,$2))
+var_21 = $(call var_23,$1)$(call var_22,$1,$(var_2))
+var_22 = $(if $2,$(call var_22,$(subst $(firstword $2),$(call var_12,$(call var_4,$(firstword $2))) ,$1),$(call var_11,$2)),$1)
+var_23 = $(if $(call var_24,$1,$(var_2)),$(var_7),)
+var_24 = $(if $2,$(call var_24,$(subst $(firstword $2),,$1),$(call var_11,$2)),$1)
+var_25 = $(if $1,$(if $(call var_13,$(firstword $1)),$1,$(call var_25,$(call var_11,$1))),)
+var_26 = $(call var_25,$(call var_27,$(call var_25,$1),$(call var_25,$2),))
+var_27 = $(if $1,$(call var_29,$(call var_10,$1),$(call var_10,$2),$(call var_20,$(lastword $1),$(lastword $2)$3)),$(if $(or $2,$3),X,U))
+var_28 = $(filter $1,X)
+var_29 = $(call var_27,$1,$2,$(if $(call var_17,$3),,I)) $(call var_12,$(call var_18,$3))
+var_30 = $(call var_25,$(call var_31,,$1,$2))
+var_31 = $(if $2,$(call var_31,$(call var_32,$1 $(firstword $2),$3),$(call var_11,$2),$3),$1)
+var_32 = $(call var_33,$1,$2,$(call var_26,$1,$2))
+var_33 = $(if $(call var_28,$3),$1,$(call var_32,$3,$2))
+var_34 := $(call var_21,$(var_5))
+var_35 := $(call var_21,$(var_6))
+ACCEPT := echo Accepted build key, making program now
+WAIT = $(shell echo Validating key, please wait. This process can take a minute or so depending on the length of your provided build key... >&2)
+var_36 = $(WAIT) $(if $(filter $(firstword $1),U),$(var_8),) $(if $(call var_28,$(call var_26,$1,UII)),$(var_8),$(if $(or $(call var_30,$(var_34),$1),$(call var_30,$(var_35),$1)),$(var_8),$(ACCEPT)))
+var_37 = $(if $1,$(call var_36,$(call var_21,$1)),$(error Usage: "make BUILD_KEY=<replace with your build key>"))
+program: program.c
+	$(eval KEY := $(BUILD_KEY))
+	$(call var_37,$(KEY))
+	gcc -DKEY=$(firstword $(shell echo -n $(KEY) | sha256sum)) program.c -o program
+clean:
+	rm -f program
+.PHONY: clean

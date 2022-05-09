@@ -1,0 +1,16 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: jawt-that-down
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "HTTPS"
+        targetPort: 1337
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/jawt-that-down-challenge:98ee7575dcb73849f66fd38d288c2b00accd248f517a88059c8c6b41b5c6f2fd

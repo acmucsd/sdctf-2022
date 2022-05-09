@@ -1,0 +1,8 @@
+Standard output:
+[master (root-commit) 8f98370] Powered by GCaaS
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file
+
+Standard error:
+Here is the first line of your /etc/passwd:
+<FIRST LINE OF /etc/passwd>

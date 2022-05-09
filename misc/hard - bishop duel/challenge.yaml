@@ -1,0 +1,13 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  #change to chal name
+  name: bishop-duel
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/bishop-duel-challenge:36df567b04c550f06af2db623958c431fc21cb8f5710181bcb3242922305fa2c

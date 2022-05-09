@@ -1,0 +1,17 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: gullible-by-dovesign
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "HTTPS"
+        targetPort: 1337
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: # what should go here
+    eu.gcr.io/sdctf-307600/gullible-by-dovesign-challenge:f28930fa1e218ffd7e872380bddd01e99736985891f3f38bbf6658be01d15abb

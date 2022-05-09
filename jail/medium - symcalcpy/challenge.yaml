@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: symcalc-py
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/symcalc-py-challenge:4bef580388ef4c1a46d54499dfc04a70f7db5e750e980397d2d40169520c4a00

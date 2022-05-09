@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: magic-3
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/magic-3-challenge:0f79bd042e67bb461a681e2b2f93bfad4bab77964bcfaed47132df284b52d285

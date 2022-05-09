@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  #change to chal name
+  name: printfailed
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: eu.gcr.io/sdctf-307600/printfailed-healthcheck:24e6b50ed7175eb2f92ca8465058f037a4a34d4be779ce6e5abfefd1013249e3
+  image: eu.gcr.io/sdctf-307600/printfailed-challenge:46096bcb9b9aa18d7c6b9feb5c7f4db07a3d6a3c441241dc9bcb7086f4bb325b

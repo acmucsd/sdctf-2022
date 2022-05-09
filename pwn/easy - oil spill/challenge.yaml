@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: oil-spill
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/oil-spill-challenge:61f9eb0881e757b89dbcfa4dfcadbdfd4d19e851ae2331a16fb0c4ba79a9d8fc

@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: rbash-calc
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/rbash-calc-challenge:954e5f74f0fdb7a14a2118cd988b3e1c5d4b2a62d4224e8731498c76f37e8bf4

@@ -1,0 +1,20 @@
+======= HAXLAB - An advanced yet secure calculator =======
+Powered by Python 3.8.5 (default, Jan 27 2021, 15:41:15) 
+[GCC 9.3.0]
+>>> flag1
+<proprietary.Flag1Holder object at 0x7fd832b24730>
+>>> dir(flag1)
+['-flag1-', '__class__', '__delattr__', '__dict__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__le__', '__lt__', '__module__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', '__weakref__']
+>>> flag1.__dict__
+{'-flag1-': REDACTED}
+>>> getattr(flag1, '-flag1-')
+REDACTED
+>>> str(getattr(flag1, '-flag1-'))
+'REDACTED'
+>>> getattr(flag1, '-flag1-')[0]
+'s'
+>>> list(getattr(flag1, '-flag1-'))
+['s', 'd', 'c', 't', 'f', '{', 'g', 'e', 't', '@', 't', 't', 'r', '_', 'r', '3', 'a', 'd', 's', '_', '3', 'v', '3', 'r', 'y', 't', 'h', '1', 'n', 'g', '}', '\n']
+>>> ''.join(list(getattr(flag1, '-flag1-')))
+'sdctf{get@ttr_r3ads_3v3ryth1ng}\n'
+>>>

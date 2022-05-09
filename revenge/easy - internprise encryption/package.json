@@ -1,0 +1,9 @@
+{
+  "name": "internprise-encryption",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gen/generate.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

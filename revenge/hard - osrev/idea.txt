@@ -1,0 +1,18 @@
+The problem is finding the gcd of two large (~2048 bit) integers, each a product of two primes with one prime in common,
+encoded in some esoteric radix (the user needs to figure that out)
+
+Generate these primes the same way as RSA generate p and q, with cryptographically strong RNG like Python's secrets
+
+To check the answer, let the user input a positive integer in that bigint format, then validate format (only valid RADIX characters allowed) and STRIP LEADINGS ZEROS (basically canonical-ize),
+then if
+the integer is 1 quit (cheating), otherwise check if n % i and m % i are both zero, if so, compute the SHA256 hash (likely using shell) of i and send that as a compile time MACRO to a C program, which then XOR that with the encrypted flag at runtime and prints the flag
+
+The input integer to the Makefile is called an API_KEY, the key needed to build the flag printer program
+
+
+
+prototype the thing in Haskell first since it has static type checking and make debugging easier
+
+
+Makefile allow functional programming
+implement a big integer

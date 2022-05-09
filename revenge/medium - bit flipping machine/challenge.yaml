@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: bit-flipping
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/bit-flipping-challenge:1f23690534cde59e9f4c3130ee07e56e82f27cf8c2631d7036e3e5ad0e99546c

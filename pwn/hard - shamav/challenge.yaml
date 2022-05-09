@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: sham-av
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/sham-av-challenge:ba821327abc690a2fd0f4b84eea43902ff185c70b0b3c0e34bb8a36d10b1b031

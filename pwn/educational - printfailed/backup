@@ -1,0 +1,24 @@
+#include <stdio>
+
+int FLAGLAN = 39
+
+int main(int argc, char ** argv){
+        char flag[39];
+        char guess[39];
+        int f = open("flag.txt",O_RDONLY);
+        read(f,flag, 39);
+        scramble(39, flag);
+        puts("can you guess the scrambled flag?");
+        read(stdin, guess,39);
+        printf("%s", flag)
+}
+
+void scramble(int times, char [] toScramble){
+        for(int i = 0; i < times; i++){
+                char scrambled[39];
+                int j = (i+10)%FLAG_LEN;
+                scrambled[i] = toScramble[j];
+        }
+        toScramble = scramble;
+}
+

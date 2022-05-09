@@ -1,0 +1,17 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: curl
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "HTTPS"
+        targetPort: 1337
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: true
+    image: eu.gcr.io/sdctf-307600/curl-healthcheck:e5afff6c846567939dcc3206041752746c1b3c512446398922a70b8305056488
+  image: eu.gcr.io/sdctf-307600/curl-challenge:ad146db7baba10c39e40cfa39c38947049bf5a2ca77eafcbcaf6ff24f952b603

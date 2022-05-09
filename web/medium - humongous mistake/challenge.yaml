@@ -1,0 +1,16 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: humongous-mistake
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "HTTPS"
+        targetPort: 1337
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/humongous-mistake-challenge:7b5fda062ae119b5a7be14d5b0073fc325e078fe065936abdc82013f978e9e6d

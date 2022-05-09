@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  #change to chal name
+  name: kleptomanic
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+    image: eu.gcr.io/sdctf-2021/printfailed-healthcheck:c56c49328273b375cb62bbbf4772630aa84218ece8e3af31101931d7af96c387
+  image: eu.gcr.io/sdctf-307600/kleptomanic-challenge:b020a161ebb516150f0769f25d2832206e0848d35d6c018180347127752bc87a

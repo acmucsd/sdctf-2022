@@ -1,0 +1,17 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: vault
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "HTTPS"
+        targetPort: 1337
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+    image: eu.gcr.io/sdctf-307600/curl-healthcheck:53531b9dc2885acfdf22110c9dc8e91f2794db1c724a049daff9f241c99895c7
+  image: eu.gcr.io/sdctf-307600/vault-challenge:781867b32544c75f863c38d2377654b1081b8ac0d880282e9b6b0714c8e92993

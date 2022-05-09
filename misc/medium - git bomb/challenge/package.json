@@ -1,0 +1,15 @@
+{
+  "name": "git-bomb",
+  "version": "1.0.0",
+  "description": "In beta, yet totally invulnerable right?",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "k3v1n",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "formidable": "^2.0.1"
+  }
+}

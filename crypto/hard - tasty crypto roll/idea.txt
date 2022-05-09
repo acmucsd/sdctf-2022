@@ -1,0 +1,27 @@
+KEY1 = process ID -> os.getpid()
+KEY2 = random 16 bytes (AES128) TODO: assumed
+
+# FLAG_INNER is going to be what is encrypted
+WARNING: should start and end with some garbage Ex. base64 text, still make sure no duplicates
+with middle being l33t_str1ng
+FLAG_INNER = ... where ... never contain duplicate characters
+FLAG = sdctf{FLAG_INNER}
+
+1. First permute some 2-byte UTF8 characters randomly using KEY1, each character occurring exactly twice and assign them to each 
+2. Map each character from FLAG_INNER to ~8 UTF8 two byte characters
+3. Convert the thing to binary (x8 in string length)
+
+Then AES 128 using ECB mode using KEY2, the resulting form is vulnerable to frequency analysis with repeated blocks
+
+random.seed(KEY1)
+
+FINAL_PERMUTATION = random.(permutation)
+KEY_FINAL = random.(get 16 bytes key)
+
+Then permute the bits according to FINAL_PERMUTATION
+
+Then AES 128 again using KEY_FINAL
+
+----- END ENCRYPTION -----
+
+Note: can try all KEY1 from 1 to some large value to brute force

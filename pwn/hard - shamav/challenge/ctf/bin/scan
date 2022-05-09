@@ -1,0 +1,19 @@
+#! /usr/bin/env bash
+# Client for ShamAV
+
+set -e
+
+SOCKET_PATH="/home/antivirus/socket"
+
+if (( $# != 1 )); then
+    echo "usage: scan FILE" >&2
+    exit 2
+fi
+
+FILE="$(realpath "$1")"
+RESULT="$(echo -n "$FILE" | socat - "UNIX-CONNECT:$SOCKET_PATH")"
+if [[ "$RESULT" == "*****"* ]]; then
+    rm -f "$FILE"
+    echo "I: Malware has been successfully deleted and quarantined"
+fi
+echo "$RESULT"

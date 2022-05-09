@@ -1,0 +1,396 @@
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-button,
+::-webkit-scrollbar-corner {
+	display: none;
+}
+::-webkit-scrollbar-thumb {
+	background: #ececec;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #e2e2e2;
+}
+::-webkit-scrollbar-thumb:active {
+	background: #b8b8b8;
+}
+::-webkit-scrollbar-track {
+	background: #383838;
+}
+
+/* Color vars should go here */
+:root {
+	--deep: #4281A4;
+	--shallow: #48A9A6;
+	--foam: #E4DFDA;
+	--sand: #DBBF95;
+	--accent: #E97565;
+	--tdeep: #4281a4ca;
+	--card-width: 20em;
+}
+html, body {
+	background-color: var(--sand);
+	margin: 0;
+	overflow-x: hidden;
+	color: var(--foam);
+	font-family: "Solway";
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: var(--foam);
+}
+a:hover {
+	text-decoration: underline;
+	color: var(--accent);
+}
+
+#root {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+.backsplash {
+	height: 100vh;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	transform: rotate(0deg);
+}
+.bs-deepwater, .bs-foam, .bs-shallowater, .bs-sand {
+	width: 200vw;
+	transform: rotate(-16deg);
+	position: fixed;
+	left: -10em;
+}
+.bs-deepwater {
+	height: 32em;
+	background: var(--deep);
+	top: -29em;
+	left: -18em;
+}
+.bs-shallowater {
+	height: 14em;
+	background: var(--shallow);
+	top: 0;
+}
+.bs-foam {
+	width: 200vw;
+	height: 7em;
+	background: var(--foam);
+	top: 9em;
+}
+.bs-sand {
+	width: 200vw;
+	height: 0em;
+	background: var(--sand);
+	top: 16em;
+}
+
+.topbar {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+.logo-container {
+	display: flex;
+	align-items: center;
+	user-select: none;
+	text-decoration: none!important;
+}
+.logo {
+	position: relative;
+	width: 6em;
+	padding: 1em;
+}
+.title-text {
+	font-family: "Arima Madurai";
+	font-weight: 800;
+	font-size: 3em;
+	color: var(--foam);
+}
+
+.hamburger {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 0;
+	width: 15em;
+	z-index: 3;
+}
+.navlink {
+	font-size: 2em;
+	padding: 0.2em 1em;
+}
+.navlink:hover {
+	background-color: rgba(255,255,255,0.05);
+}
+.burgie {
+	font-size: 5em;
+	cursor: pointer;
+	align-self: flex-end;
+	line-height: 0.5;
+	/* don't touch the burgie */
+	user-select: none;
+	margin: 0.4em 0.4em 0 0;
+}
+.blue-burgies-yum {
+	background-color: var(--deep);
+}
+.hamburger > .navlink:first-of-type {
+	margin-top: 1em;
+}
+.hamburger > .navlink:last-of-type {
+	margin-bottom: 0.5em;
+}
+.center-box-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	position: relative;
+	flex-grow: 1;
+}
+.center-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--tdeep);
+	width: 45em;
+	text-align: center;
+	padding: 2em;
+	flex-direction: column;
+}
+.cbox-title {
+	font-size: 5em;
+}
+.action-statement {
+	position: relative;
+	font-size: 4em;
+	text-align: center;
+}
+.or-separator {
+	position: relative;
+	font-size: 6em;
+	margin: 0.5em 0;
+	display: flex;
+	align-items: center;
+}
+.or-separator::before, .or-separator::after {
+	content: "";
+	width: 1em;
+	height: 10px;
+	background-color: var(--foam);
+	margin: 0 0.2em
+}
+.action-dialogue {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	margin: 14em 0;
+	width: 65%;
+	align-self: center;
+	justify-self: center;
+}
+.smaller-title > .center-box > .cbox-title {
+	font-size: 1.75em;
+	margin-bottom: 0.5em;
+}
+.smaller-title {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+.smaller-title > .center-box{
+	font-size: 2em;
+	width: 28em;
+}
+.acct-container {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 1;
+	margin-bottom: 3em;
+}
+.acct-box {
+	background-color: var(--tdeep);
+	padding: 2em;
+	width: 25em;
+	display: flex;
+	flex-direction: column;
+}
+.acct-box > button {
+	transition: background-color 0.1s, color 0.1s;
+	width: 5em;
+	align-self: end;
+	font-size: 1.75em;
+	padding: 0.3em;
+	font-weight: bold;
+	border: none;
+	background: var(--foam);
+	color: var(--deep);
+	cursor: pointer;
+	font-family: "Solway";
+}
+.acct-box > button:hover {
+	background-color: var(--accent);
+	color: var(--foam);
+}
+.acct-box input {
+	background-color: var(--foam);
+	font-family: "Solway";
+	border: none;
+}
+.input-box {
+	display: flex;
+	flex-direction: column;
+	font-size: 2em;
+	margin-bottom: 0.7em;
+}
+.input-box input {
+	font-size: 0.75em;
+	padding: 0.25em;
+	margin-top: 0.2em;
+	outline-color: var(--accent);
+}
+.input-box:last-of-type {
+	margin-bottom: 0;
+}
+.change-login {
+	cursor: pointer;
+	width: 100%;
+	margin-top: 0.3em;
+	font-size: 1.2em;
+	margin-bottom: 1.25em;
+}
+.acct-title {
+	font-size: 3.5em;
+	margin-bottom: 0.5em;
+}
+
+.item-card {
+	display: block;
+	background-color: var(--accent);
+	padding: 2em;
+	position: relative;
+	width: var(--card-width);
+	margin: 3em auto;
+	break-inside: avoid!important;
+    page-break-inside: avoid;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+.item-card:first-child {
+	margin-top: 0;
+}
+.item-card-img {
+	width: var(--card-width);
+}
+.item-card-title {
+	font-size: 3em;
+	margin-bottom: 0.5em;
+	overflow-wrap: break-word;
+}
+.item-card-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 2em;
+	align-items: center;
+}
+.buy-now {
+	border: none;
+	background-color: var(--foam);
+	color: var(--accent);
+	font-family: "Solway";
+	cursor: pointer;
+	border-radius: 100em;
+	font-size: 2em;
+	padding: 0.1em 0.5em;
+	font-weight: bold;
+}
+.item-price {
+	font-size: 2em;
+}
+
+.wiki-attribution {
+	font-size: 0.9em;
+	margin-bottom: 1em;
+	text-align: left;
+	margin-left: 2.5em;
+	text-indent: -2.5em;
+	align-self: flex-start;
+}
+.item-card-holder {
+	column-width: 30em;
+	margin-bottom: 8em;
+}
+
+.beeg-margin {
+	margin-top: 5em;
+	margin-bottom: 6em;
+}
+.twofa .center-box {
+	width: 25em;
+}
+.twofa .cbox-title{
+	font-size: 3em;
+}
+.twofa input {
+	font-size: 4em;
+	padding: 0em;
+	margin-top: 0.2em;
+	outline-color: var(--accent);
+	background-color: var(--foam);
+	font-family: "Solway";
+	border: none;
+	font-weight: bold;
+	text-align: center;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 0.3em;
+	color: var(--accent);
+}
+.twofa-submit {
+	transition: background-color 0.15s, color 0.15s;
+    font-size: 2em;
+    font-family: 'Solway';
+    border: none;
+    background: var(--foam);
+    color: var(--deep);
+    cursor: pointer;
+    padding: 0.25em;
+    font-weight: bold;
+}
+.twofa-submit:hover {
+    background: var(--accent);
+    color: var(--foam);
+}
+.server-error {
+	margin-top: 0;
+	margin-bottom: 0.5em;
+}
+.server-error .cbox-title {
+	font-size: 3.3em;
+}
+.no-pay {
+	margin-top: 0.8em;
+	font-size: 2em;
+}
+.big-top-margin {
+	margin-top: 4em;
+}
+.remaining-balance {
+	font-size: 2em;
+	margin-top: 1em;
+}
+
+/* Responsive queries go here */
+@media screen and (max-width: 760px) {
+	
+}
+@media screen and (max-width: 430px) {
+	
+}

@@ -1,0 +1,14 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  #change to chal name
+  name: horoscope
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: true
+    image: eu.gcr.io/sdctf-307600/horoscope-healthcheck:1797959630837904011c227dce4cdfe082e5a7a93bbac79e63c401e09db582a9
+  image: eu.gcr.io/sdctf-307600/horoscope-challenge:5d9fdd56001f7edcb0989450a7d521bc1fdc37d8c675a9e0d4ab01d719b51fa2

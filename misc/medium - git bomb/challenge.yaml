@@ -1,0 +1,16 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: git-bomb
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+    ports:
+      - protocol: "HTTPS"
+        targetPort: 1337
+  healthcheck:
+    # TIP: disable the healthcheck during development
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/git-bomb-challenge:a35728589a58cb7b190c2c7e7775f3484df3f36f6dfd4d6662c103a46a21b2d0

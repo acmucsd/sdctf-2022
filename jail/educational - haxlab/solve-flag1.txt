@@ -1,0 +1,2 @@
+print(getattr(flag1, '-flag1-')[:])
+# Another solution: print(''.join(list(getattr(flag1, '-flag1-'))))

@@ -1,0 +1,12 @@
+apiVersion: kctf.dev/v1
+kind: Challenge
+metadata:
+  name: rbash-warmup
+spec:
+  deployed: true
+  powDifficultySeconds: 0
+  network:
+    public: true
+  healthcheck:
+    enabled: false
+  image: eu.gcr.io/sdctf-307600/rbash-warmup-challenge:cc47be91b7d4d7a42fc0f156855c6953950fd7c2c56817e6336eea125e1fef15
