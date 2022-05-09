@@ -1,6 +1,6 @@
-# SDCTF 2021
+# SDCTF 2022
 
-Here is the challenge and infrastructure files of [San Diego CTF 2021](https://sdc.tf).
+Here is the challenge and infrastructure files of [San Diego CTF 2022](https://sdc.tf).
 Challenge files include source code that implement the challenge ideas.
 
 This CTF was deployed on [Google Cloud Platform](https://cloud.google.com/) using the brilliant [kCTF](https://github.com/google/kctf) framework. Please check them out.
@@ -10,9 +10,8 @@ This CTF used the novel Discord-based [ctfbot](https://github.com/acmucsd/ctfbot
 ### Disclaimer
 
 **San Diego CTF** is managed by the [ACM chapter at UC San Diego's](https://acmucsd.com/) Cyber community.
-We're a bunch of college students and SDCTF 2021 is over, so ***no support will be provided*** for the building, deploying, and managing of these challenges.
+We're a bunch of college students and SDCTF 2022 is over, so ***no support will be provided*** for the building, deploying, and managing of these challenges.
 This repository is published as a courtesy in the hopes that it will be educational to those interested in cybersecurity.
-
 
 
 ## Contents
@@ -32,12 +31,6 @@ You can also currently run challenges locally (without deploying to a running cl
 After updating the source code of any challenge(s), remember to run `./build-all.sh` again (or the relevant `Makefile`s) so the attachment and/or deployment files can be updated. Then, run `kctf chal start` on the updated challenges to update the deployment.
 
 We recommend building/running everything in [Google Cloud Shell](https://cloud.google.com/shell), which has a lot of tools (Ex. `gcc`) already built in.
-However, there are some additional tools that you need to install as some `Makefile`s depends on them:
-
-- Onelinerizer:
-`pip2 install onelinerizer`
-- Nasm: `sudo apt-get install nasm`
-  - If you are using Google Cloud Shell, use `~/.customize_environment`. See the section below
 
 ## Google Cloud Shell
 
