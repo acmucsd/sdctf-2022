@@ -2,7 +2,7 @@
 ## JAIL - Medium
 | author | first blood | solves | points |
 | --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| k3v1n | fredd (thehackerscrew) | 0 | 0 |
 ### prompt
 Rbash, in its most restricted form, is nothing but a calculator.
 To get started, try this command :)

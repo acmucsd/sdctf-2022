@@ -2,7 +2,7 @@
 ## PWN - Medium
 | author | first blood | solves | points |
 | --- | --- | --- | --- |
-| green beans | _ | 0 | 0 |
+| green beans | fredd (thehackerscrew) | 0 | 0 |
 ### prompt
 I’m awfully hungry, with all these options to choose from, what should I order?
 

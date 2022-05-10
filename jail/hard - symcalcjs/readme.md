@@ -2,7 +2,7 @@
 ## JAIL - Hard
 | author | first blood | solves | points |
 | --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| k3v1n | fredd (thehackerscrew) | 0 | 0 |
 ### prompt
 We ported our state-of-the-art calculator to Node.js because we were tired of Python's security issues...
 
