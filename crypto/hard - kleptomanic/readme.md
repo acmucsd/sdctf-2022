@@ -1,8 +1,8 @@
 # Kleptomanic
 ## CRYPTO - Hard
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | --- | -- | --- |
+| Aaron James | **Maple Bacon** | 27 | 400 |
 ### prompt
 An internationally wanted league of bitcoin thieves have finally been tracked down to their internet lair!
 

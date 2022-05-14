@@ -1,10 +1,12 @@
 # Lots of Logs
 ## WEB - Easy
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Nick Petrone | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Nick Petrone | nastynesti from **NestingDoll** | 74 | 175 |
+
 ### prompt
-As a professional logger, I made an extensive logger that logs all of the logs I log to the blog I blog so that no log goes unlogged. I post some logs to the catalog on my blog.
+As a professional logger, I made an extensive logger that logs all of the logs I log to the blog I blog so that no log goes unlogged.
+I post some logs to the catalog on my blog.
 
 https://logs.sdc.tf
 

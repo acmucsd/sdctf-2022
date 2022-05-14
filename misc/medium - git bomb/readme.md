@@ -1,8 +1,8 @@
 # Git Bomb
 ## MISC - Medium
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| k3v1n | **buffer owlerflow** | 33 | 175 |
 ### prompt
 Welcome to git-commit-as-a-service (GCaaS). Give me your git repository and I will commit it for you.
 

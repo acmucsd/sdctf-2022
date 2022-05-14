@@ -1,8 +1,8 @@
 # Mann Hunt
 ## OSINT - Hard
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | --- | -- | --- |
+| Aaron James | guro from **irs.sh** | 96 | 400 |
 ### prompt
 We were on the trail of a notorious hacker earlier this week, but they suddenly went dark, taking down all of their internet presence...All we have is a username: `mann5549`
 

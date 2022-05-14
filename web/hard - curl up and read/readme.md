@@ -1,8 +1,9 @@
 # CURL Up and Read
 ## WEB - Hard
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Aaron James | **bawolff** | 38 | 500 |
+
 ### prompt
 This app will show the reader view of any website you enter! No more ads, cookie nags, and paywalls, just content. https://curl.sdc.tf 
 

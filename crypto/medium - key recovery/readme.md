@@ -1,8 +1,8 @@
 # Key Recovery
 ## CRYPTO - Medium
 | author | first blood | solves | points |
-|--------| --- | --- | --- |
-| k3v1n  | _ | 0 | 0 |
+|--------| -- | --- | --- |
+| k3v1n  | **y011d4** | 39 | 250 |
 ### prompt
 Oh no, I can't log into my SSH server anymore. My RSA private key is corrupted by ransomware and I need your help recovering it.
 

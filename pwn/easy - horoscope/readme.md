@@ -1,8 +1,8 @@
 # Horoscope
 ## PWN - Easy
-| author      | first blood | solves | points |
-|-------------| --- | --- | --- |
-| green beans | Linz (thehackerscrew) | 0 | 0 |
+| author      | first blood                  | solves | points |
+|-------------|------------------------------| -- | --- |
+| green beans | Linz from **thehackerscrew** | 125 | 100 |
 ### prompt
 This program will predict your future!
 

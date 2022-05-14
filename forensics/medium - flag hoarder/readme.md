@@ -1,8 +1,8 @@
 # Flag Hoarder
 ## FORENSICS - Medium
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Aaron James | hfz from **Project Sekai** | 16 | 250 |
 ### prompt
 We were able to recover a flag from the PC of a notorious flag hoarder. Unfortunately, they've encrypted the flag so no one can have it!
 

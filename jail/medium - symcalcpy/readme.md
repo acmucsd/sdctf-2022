@@ -1,8 +1,8 @@
 # SymCalcpy
 ## JAIL - Medium
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| k3v1n | despawningbone from **Maple Bacon** | 27 | 220 |
 ### prompt
 Welcome to SymCalc, the most secure calculator ever. Only punctuation and digits allowed!
 

@@ -1,8 +1,8 @@
 # Oracle
 ## REVENGE - Easy
 | author | first blood | solves | points |
-|-------| --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+|-------| -- | --- | --- |
+| k3v1n | MikeCAT from **MikeCAT** | 64 | 130 |
 ### prompt
 An oracle is a black box in a Turing machine. You can run it but how do you inspect it?
 

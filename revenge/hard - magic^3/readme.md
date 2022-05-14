@@ -1,8 +1,9 @@
 # magic^3
 ## REVENGE - Hard
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| k3v1n | **TheBadGod** | 9 | 450 |
+
 ### prompt
 Any technology that is advanced enough is indistinguishable from magic. This binary does it next level: it is magic raised to the third power.
 

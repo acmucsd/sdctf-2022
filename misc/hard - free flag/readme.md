@@ -1,8 +1,8 @@
 # Free Flag
 ## MISC - Hard
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Kevin He, Aaron James | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Kevin He, Aaron James | ! Lucian from **Hackappatoi** | 33 | 300 |
 ### prompt
 We are so generous that we literally decided to give you a free flag on a challenge other than sanity check.
 

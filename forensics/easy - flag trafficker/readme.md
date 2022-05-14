@@ -1,8 +1,8 @@
 # Flag Trafficker
 ## FORENSICS - Easy
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Aaron James | NatanelGu from **pwnjuice** | 209 | 150 |
 ### prompt
 We've sniffed the traffic of somebody suspected to be looking up flags online! Unfortunately, just searching for the flag format in their traffic doesn't appear to be working...can you find the leaked flag?
 

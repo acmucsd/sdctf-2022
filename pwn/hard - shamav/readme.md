@@ -1,8 +1,8 @@
 # ShamAV
 ## PWN - Hard
 | author | first blood | solves | points |
-|--------| --- | --- | --- |
-| k3v1n  | _ | 0 | 0 |
+|--------| --- | -- | --- |
+| k3v1n  | reductor from **idek** | 13 | 400 |
 ### prompt
 We just developed a new anti-virus called ShamAV. Have fun.
 

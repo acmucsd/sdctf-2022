@@ -1,8 +1,8 @@
 # Breakfast Menu
 ## PWN - Medium
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| green beans | fredd (thehackerscrew) | 0 | 0 |
+| author | first blood                    | solves | points |
+| --- |--------------------------------| -- | --- |
+| green beans | fredd from **thehackerscrew** | 32 | 250 |
 ### prompt
 I’m awfully hungry, with all these options to choose from, what should I order?
 

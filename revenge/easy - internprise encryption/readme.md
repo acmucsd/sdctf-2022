@@ -1,8 +1,8 @@
 # Internprise Encryption
 ## REVENGE - Easy
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Nick Petrone | _ | 0 | 0 |
+| author | first blood                                        | solves | points |
+| --- |----------------------------------------------------| -- | --- |
+| Nick Petrone | Winter from **les amateurs de la competition ctf** | 48 | 200 |
 ### prompt
 Our new intern Dave encrypted all of our important company files with his homemade "military grade encryption scheme" to try and improve company security. The thing is... he didn’t make the “decryption” part and we didn’t make backups.
 

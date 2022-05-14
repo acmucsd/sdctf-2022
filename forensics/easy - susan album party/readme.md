@@ -1,8 +1,8 @@
 # Susan Album Party
 ## FORENSICS - Easy
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Aaron James | **buffer** | 92 | 100 |
 ### prompt
 My friend Susan is having a photo album party, but she accidentally corrupted the SD card with all her photos on it! Can you save Susan's party by recovering her photos?
 

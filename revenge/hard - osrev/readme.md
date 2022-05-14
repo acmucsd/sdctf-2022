@@ -1,8 +1,8 @@
 # OSREV
 ## REVENGE - Hard
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| k3v1n | **idek** | 4 | 500 |
 ### prompt
 Finally, you encountered a hard reversing challenge that is 100% Open Source (OSREV). There is not even a binary for you to reverse.
 

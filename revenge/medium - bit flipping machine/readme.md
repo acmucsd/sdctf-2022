@@ -1,8 +1,8 @@
 # Bit flipping machine
 ## REVENGE - Medium
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| k3v1n | despawningbone from **Maple Bacon** | 32/12 | 110/130 |
 ### prompt
 We just made a machine that can remotely flip bits to change the memory contents of enemy computers. You are tasked with demonstrating the power of this machine to skeptics by changing their demanded strings to match the target strings.
 

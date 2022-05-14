@@ -1,8 +1,8 @@
 # Gullible by Dovesign
 ## WEB - Medium
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Nick Petrone | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Nick Petrone | **RTFM - Red Team** | 16 | 300 |
 ### prompt
 I really like birds, so I made a website where people can upload their favorite bird pictures. It’s protected by state-of-the-art anti-bird prevention technology, so don’t bother trying to upload anything that isn’t a bird. Have fun birding!
 

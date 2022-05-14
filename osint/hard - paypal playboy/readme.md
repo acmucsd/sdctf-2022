@@ -1,8 +1,8 @@
 # Paypal Playboy
 ## OSINT - Hard
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Andy Peterson | CSN3RD (thehackerscrew) | 0 | 0 |
+| author | first blood                | solves | points |
+| --- |----------------------------| -- | --- |
+| Andy Peterson | CSN3RD from thehackerscrew | 23 | 300 |
 ### prompt
 We've apprehended somebody suspected of purchasing SDCTF flags off an underground market. That said, this guy is small fry. We need to find the leaker and bring them to brutal justice! 
 

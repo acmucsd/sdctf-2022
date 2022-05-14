@@ -1,8 +1,8 @@
 # Turing Test
 ## OSINT - Medium
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James, Andy Peterson | CSN3RD (thehackerscrew) | 0 | 0 |
+| author | first blood                    | solves | points |
+| --- |--------------------------------| -- | --- |
+| Aaron James, Andy Peterson | CSN3RD from **thehackerscrew** | 49 | 200 |
 ### prompt
 My friend has been locked out of his account on http://flag-vault.sdc.tf! 
 

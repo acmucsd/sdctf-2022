@@ -1,8 +1,8 @@
 # Tasty Crypto Roll
 ## CRYPTO - Hard
 | author | first blood | solves | points |
-|--------| --- | --- | --- |
-| k3v1n  | _ | 0 | 0 |
+|--------| -- | --- | --- |
+| k3v1n  | **Maple Bacon** | 13 | 400 |
 ### prompt
 Bob, the genius intern at our company, invented AES-improved. It is based on AES but with layers after layers of proprietary encryption techniques on top of it.
 

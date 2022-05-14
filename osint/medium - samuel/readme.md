@@ -1,8 +1,9 @@
 # Samuel
 ## OSINT - Medium
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| k3v1n | GamerOp from **UCSDCTF Admin** | 88 | 160 |
+
 ### prompt
 Where is this?
 

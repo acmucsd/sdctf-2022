@@ -1,8 +1,8 @@
 # Six Bites
 ## CRYPTO - Easy
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Aaron James | deuterium from **Project Sekai** | 56 | 120 |
 ### prompt
 My friend sent me the flag, but its encrypted!
 I heard them yell something about six bites...but I don’t understand what they mean!

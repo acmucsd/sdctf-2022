@@ -1,8 +1,8 @@
 # Vinegar
 ## CRYPTO - Easy
 | author             | first blood | solves | points |
-|--------------------| --- | --- | --- |
-| k3v1n, Aaron James | _ | 0 | 0 |
+|--------------------| -- | --- | --- |
+| k3v1n, Aaron James | Danisaur from **BYU Cyberia** | 193 | 100 |
 ### prompt
 My friend gave me another encrypted flag...I think they hate me!
 I heard them yell something about “Vinegar”, but I still don’t know what they’re talking about!

@@ -1,8 +1,8 @@
 # Bishop Duel
 ## MISC - Hard
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| Aaron James | Cloudate9 from **CTFFailures** | 110/93 | 100/200 |
 ### prompt
 2 bishops on the chessboard.
 

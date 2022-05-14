@@ -1,8 +1,8 @@
 # Ishihara test++
 ## MISC - Easy
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Nick Petrone | _ | 0 | 0 |
+| author | first blood             | solves | points |
+| --- |-------------------------| -- | --- |
+| Nick Petrone | Sean from **bugs@UCSD** | 173 | 100 |
 ### prompt
 I don't think the person who made this knew what they were doing. Aren’t you supposed to see some kind of number or something in the middle?
 

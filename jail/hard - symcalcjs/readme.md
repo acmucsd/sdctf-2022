@@ -1,8 +1,8 @@
 # SymCalcjs
 ## JAIL - Hard
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | fredd (thehackerscrew) | 0 | 0 |
+| author | first blood                   | solves | points |
+| --- |-------------------------------| -- | --- |
+| k3v1n | fredd from **thehackerscrew** | 25 | 500 |
 ### prompt
 We ported our state-of-the-art calculator to Node.js because we were tired of Python's security issues...
 

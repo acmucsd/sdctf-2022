@@ -1,8 +1,8 @@
 # Rbash — Yet Another Calculator
 ## JAIL - Medium
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | fredd (thehackerscrew) | 0 | 0 |
+| author | first blood                   | solves | points |
+| --- |-------------------------------| -- | --- |
+| k3v1n | fredd from **thehackerscrew** | 92 | 150 |
 ### prompt
 Rbash, in its most restricted form, is nothing but a calculator.
 To get started, try this command :)

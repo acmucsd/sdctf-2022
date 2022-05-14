@@ -1,8 +1,8 @@
 # Google Ransom
 ## OSINT - Easy
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Aaron James | _ | 0 | 0 |
+| --- | --- | -- | --- |
+| Aaron James | **str4ng3_b0yz** | 155 | 100 |
 ### prompt
 Oh no! A hacker has stolen a flag from us and is holding it ransom.
 

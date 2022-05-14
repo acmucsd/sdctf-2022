@@ -1,8 +1,8 @@
 # HuMongous Mistake
 ## WEB - Medium
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| Nick Petrone | Linz (thehackerscrew) | 0 | 0 |
+| author | first blood                  | solves | points |
+| --- |------------------------------| -- | --- |
+| Nick Petrone | Linz from **thehackerscrew** | 7 | 300 |
 ### prompt
 Come purchase some shells! People are saying our payment server is acting a bit finnicky lately, but I don’t know what they’re talking about. It works fine on my end!
 

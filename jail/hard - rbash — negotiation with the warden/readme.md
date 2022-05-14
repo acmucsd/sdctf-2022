@@ -1,8 +1,8 @@
 # Rbash — Negotiation with the warden
 ## JAIL - Hard
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| k3v1n | CøsmicEquation from **Th3EventH0riz0n** | 10 | 350 |
 ### prompt
 You now have the right to negotiate your PATH with your prison warden. Same deal as the warmup: Get the flag by executing the /flag binary. Good luck!
 

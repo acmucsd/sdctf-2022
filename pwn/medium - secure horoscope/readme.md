@@ -1,8 +1,8 @@
 # Secure Horoscope
 ## PWN - Medium
 | author | first blood | solves | points |
-| --- | --- | --- | --- |
-| green beans | _ | 0 | 0 |
+| --- | -- | --- | --- |
+| green beans | **mito** | 53 | 250 |
 ### prompt
 Our horoscope developers have pivoted to a more security-focused approach to predicting the future. You won’t find breaking into this one quite so easy!
 

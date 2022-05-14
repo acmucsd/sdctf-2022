@@ -1,8 +1,8 @@
 # Rbash — Warmup
 ## JAIL - Easy
-| author | first blood | solves | points |
-|--------| --- | --- | --- |
-| k3v1n  | fredd (thehackerscrew) | 0 | 0 |
+| author | first blood                  | solves | points |
+|--------|------------------------------| -- | --- |
+| k3v1n  | fredd for **thehackerscrew** | 80 | 150 |
 ### prompt
 Welcome to the restricted shell! Demonstrate RCE on this rbash setup by running the  /flag binary executable, and you will be awarded with the flag!
 

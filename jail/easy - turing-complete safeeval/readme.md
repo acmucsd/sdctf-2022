@@ -1,8 +1,8 @@
 # Turing-complete safeeval
 ## JAIL - Easy
-| author | first blood | solves | points |
-| --- | --- | --- | --- |
-| k3v1n | fredd (thehackerscrew) | 0 | 0 |
+| author | first blood                  | solves | points |
+| --- |------------------------------| -- | --- |
+| k3v1n | fredd for **thehackerscrew** | 27 | 110 |
 ### prompt
 Hey! We just made a brand new Turing-complete calculator based on a slight modification of `pwnlib.util.safeeval` to allow defining functions, because otherwise it would be Turing-incomplete.
 
