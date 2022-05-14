@@ -2,7 +2,7 @@
 ## PWN - Easy
 | author      | first blood | solves | points |
 |-------------| --- | --- | --- |
-| green beans | _ | 0 | 0 |
+| green beans | Linz (thehackerscrew) | 0 | 0 |
 ### prompt
 This program will predict your future!
 

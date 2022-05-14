@@ -2,7 +2,7 @@
 ## PWN - Easy
 | author | first blood | solves | points |
 | --- | --- | --- | --- |
-| green beans | _ | 0 | 0 |
+| green beans | Linz (thehackerscrew) | 0 | 0 |
 ### prompt
 Darn, these oil spills are going crazy nowadays. It looks like there's a little bit more than oil coming out of this program though...
 

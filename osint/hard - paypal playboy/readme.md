@@ -2,7 +2,7 @@
 ## OSINT - Hard
 | author | first blood | solves | points |
 | --- | --- | --- | --- |
-| Andy Peterson | _ | 0 | 0 |
+| Andy Peterson | CSN3RD (thehackerscrew) | 0 | 0 |
 ### prompt
 We've apprehended somebody suspected of purchasing SDCTF flags off an underground market. That said, this guy is small fry. We need to find the leaker and bring them to brutal justice! 
 

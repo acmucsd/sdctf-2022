@@ -2,7 +2,7 @@
 ## JAIL - Easy
 | author | first blood | solves | points |
 |--------| --- | --- | --- |
-| k3v1n  | _ | 0 | 0 |
+| k3v1n  | fredd (thehackerscrew) | 0 | 0 |
 ### prompt
 Welcome to the restricted shell! Demonstrate RCE on this rbash setup by running the  /flag binary executable, and you will be awarded with the flag!
 
