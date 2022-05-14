@@ -17,3 +17,6 @@ There are many algorithms for solving a rubik's cube in very few steps and there
 The title is a small hint: The Rubik's cube was originally called the "Magic Cube" ^3 means cubed.
 
 **flag:** `sdctf{U2_m4st3rED_thE_DarK_MAg1c_0f_cub1ng}`
+
+### write-ups
+1. https://ubcctf.github.io/2022/05/sdctf-magic3/
