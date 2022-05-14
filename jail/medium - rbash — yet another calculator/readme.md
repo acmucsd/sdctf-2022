@@ -22,3 +22,7 @@ Exploit by listing contents of the current directory via
 
 **flag:** `sdctf{red1r3ct1ng_std1n_IS_p3rm1tt3d_1n_rb45h!}`
 
+### write-ups
+1. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/jail.md#rbash-yet-another-calculator
+2. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/JAIL/Rbash_Yet_Another_Calculator/
+3. https://github.com/ninnikukawaii/write-ups/tree/master/San%20Diego%20CTF%202022/jail/rbash-yet-another-calculator

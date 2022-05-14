@@ -15,3 +15,8 @@ https://ir0nstone.gitbook.io/notes/types/stack/stack-pivoting
 
 **flag:** `sdctf{Th0s3_d4rN_P15C3s_g0t_m3}`
 
+### write-ups
+1. https://shakuganz.com/2022/05/09/san-diego-ctf-3-2022-write-up-pwn/
+2. https://4n0nym4u5.netlify.app/post/san-diego-ctf-2022/
+3. https://github.com/tj-oconnor/ctf-writeups/tree/main/sdctf/securehoroscope
+4. https://chovid99.github.io/posts/sandiego-ctf-2022/#secure-horoscope

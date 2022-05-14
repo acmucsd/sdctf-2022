@@ -33,3 +33,5 @@ Next, you need to create an exploit to escape the vm, of which the simplest solu
 
 **flag:** `sdctf{JaVaScriPT_SynTAX_Is_ADmirab1e}`
 
+### write-ups
+1. https://sheeptester.github.io/longer-tweets/ctf/#ctf-node-calculator-escape-vm-codegeneration-false

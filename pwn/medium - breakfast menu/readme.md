@@ -13,3 +13,5 @@ Breakfast menu with alloc, free, edit. double free in 2.27. no real bounds check
 
 **flag:** `sdctf{Th3_m05t_1Mp0Rt4nT_m34L_0f_th3_d4Y}`
 
+### write-ups
+1. https://4n0nym4u5.netlify.app/post/san-diego-ctf-2022/

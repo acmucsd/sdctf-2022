@@ -18,3 +18,8 @@ First convert the flag into binary string (0101010...). Then for every octet (8-
 
 **flag:** `sdctf{St3g0nOgrAPHY_AnD_Cl0s3d_SRC_Are_A_FUN_C0mb0}`
 
+### write-ups
+1. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/MISC/Free_Flag/
+2. https://ctftime.org/writeup/33726
+3. https://github.com/danieltaylor/sdctf22-writeups/tree/main/freeflag
+4. 

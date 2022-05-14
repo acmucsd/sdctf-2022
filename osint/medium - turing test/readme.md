@@ -21,3 +21,6 @@ After, the account is unlocked and the user can get the flag from the flag vault
 
 **flag:** `sdctf{7he_1m1747i0n_94m3}`
 
+### write-ups
+1. https://medium.com/@hawk101/sdctf-2022-osint-chall-turing-test-6956eb310e05
+2. https://github.com/bhavya-error404/CTFs-Writeups/blob/main/SDCTF/OSINT/Turing%20Test.md

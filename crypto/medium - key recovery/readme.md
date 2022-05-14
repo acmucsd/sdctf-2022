@@ -31,3 +31,5 @@ Make sure the version number is 0 and test to make sure the SSH key works.
 
 **flag:** `sdctf{687a497b47a7e8e6e88cafc6181fa0b3676548b989e7bff9bc87d55d450abd51}`
 
+### write-ups
+1. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/CRYPTO/Key_Recovery/

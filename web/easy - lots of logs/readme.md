@@ -13,3 +13,8 @@ A simple website that aggregates links to log files. Logs are hosted in a path i
 
 **flag:** `sdctf{b3tr4y3d_by_th3_l0gs_8a4dfd}`
 
+### write-ups
+1. https://github.com/BYU-CTF-group/writeups/tree/main/SDCTF_2022/logs
+2. https://gist.github.com/DauHoangTai/6669efd86c3c484c355eca708a44399b
+3. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/web.md#lots-of-logs
+4. https://sheeptester.github.io/longer-tweets/ctf/#logs-ctf

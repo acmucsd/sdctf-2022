@@ -13,3 +13,9 @@ Requires the user to find the HTTP request, download the JS, and execute it to o
 
 **flag:** `sdctf{G3T_F*cK3d_W1r3SHaRK}`
 
+### write-ups
+1. https://github.com/bhavya-error404/CTFs-Writeups/blob/main/SDCTF/Forensics/Flag-Tracfficker.md
+2. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/forensics.md
+3. https://ctftime.org/writeup/33742
+4. https://github.com/ninnikukawaii/write-ups/tree/master/San%20Diego%20CTF%202022/forensics/flag-trafficker
+5. https://ctftime.org/writeup/33721

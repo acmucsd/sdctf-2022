@@ -14,4 +14,3 @@ It looks like you have an unlicensed copy (no build key). Yikes!
 An obfuscated Makefile that takes in a “build key” and does some checks, only a valid build key will pass. Then the SHA256 hash of the build key is passed to gcc which use that to build a C program which then XOR’s the build key with the encrypted flag and then simply print the flag.
 
 **flag:** `sdctf{EuCl1d3an_4Lg0riThM_IS_v3Ry_F4sT}`
-

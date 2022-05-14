@@ -13,3 +13,6 @@ Navigate to the login page to create an account with your discord name but donâ€
 
 **flag:** `sdctf{th1s_ch4ll3nge_1snt_g3tt1ng_a_SQL_ad45bd}`
 
+### write-ups
+1. https://gist.github.com/DauHoangTai/6669efd86c3c484c355eca708a44399b
+2. https://sheeptester.github.io/longer-tweets/ctf/#mongodb-admin-ctf

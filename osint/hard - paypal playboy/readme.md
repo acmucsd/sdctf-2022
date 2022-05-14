@@ -14,3 +14,7 @@ Digital sleuthing through cashapp, paypal, the blockchain, as well as some email
 
 **flag:** `sdctf{You_Ever_Dance_With_the_Devil_In_the_Pale_Moonlight}`
 
+### writeups
+
+1. https://github.com/warholio/public/blob/main/wwu-ctf-write-up.pdf
+2. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/osint.md#paypal-playboy

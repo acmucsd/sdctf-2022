@@ -11,3 +11,7 @@ The app downloads webpages not through traditional request libraries or even a c
 
 **flag:** `sdctf{CURL_up_aNd_L0c@L_F1le_incLuSi0N}`
 
+### write-ups
+1. https://github.com/BYU-CTF-group/writeups/tree/main/SDCTF_2022/curl-up-and-read
+2. https://gist.github.com/DauHoangTai/6669efd86c3c484c355eca708a44399b#file-curlup-py
+3. https://sheeptester.github.io/longer-tweets/ctf/#curl-get-environment-variable-ctf

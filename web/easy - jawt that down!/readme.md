@@ -13,3 +13,8 @@ A simple web app with a login that is visible in the HTML. You'll be given a JWT
 
 **flag:** `sdctf{Th3_m0r3_t0k3ns_the_le55_pr0bl3ms_adf3d}`
 
+### write-ups
+1. https://github.com/shwetankarora/ctf-writeups/blob/main/2022/SDCTF/web/JaWT_that_down/main.md
+2. https://gist.github.com/DauHoangTai/6669efd86c3c484c355eca708a44399b
+3. https://github.com/Happy-hub/CTF/tree/main/2022/SanDiegoCTF/jawt-that-down
+4. https://sheeptester.github.io/longer-tweets/ctf/#jawtjwt-ctf

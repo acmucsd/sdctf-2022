@@ -11,3 +11,7 @@ Programmatic encryption of flag that uses bitwise operators, muliplication, addi
 
 **flag:** `sdctf{D0n't_b3_a_D4v3_ju5t_Use_AES_0r_S0me7h1ng}`
 
+# write-ups
+1. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/REVENGE/Internprise_Encryption/
+2. https://sheeptester.github.io/longer-tweets/ctf/#inverse-encrypting
+3. https://github.com/danieltaylor/sdctf22-writeups/tree/main/internprise-encryption

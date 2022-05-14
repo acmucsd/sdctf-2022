@@ -21,3 +21,6 @@ There is actually another built-in (without using the obvious eval or exec) that
 
 **flag:** `sdctf{0ct4l_3scap3s_go_brrrrr...___und3rsc0r3s_ar3_Id3Nt1Fi3rs_t00}`
 
+### write-ups
+1. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/JAIL/SymCalc_py/
+2. https://github.com/qhdwight/ctf-writeups/tree/master/sd-ctf-2021/rbash-symcalcpy

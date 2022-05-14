@@ -13,3 +13,6 @@ User creates account and logs into website, uploads a picture of a bird, the ima
 
 **flag:** `sdctf{th3_e4r1y_b1rd_n3rd_g3t5_the_fl4g_a1e45fb4}`
 
+### write-ups
+1. https://github.com/BYU-CTF-group/writeups/tree/main/SDCTF_2022/dovesign
+2. https://gist.github.com/DauHoangTai/6669efd86c3c484c355eca708a44399b

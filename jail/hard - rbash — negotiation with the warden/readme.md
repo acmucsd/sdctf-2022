@@ -27,3 +27,5 @@ Implementation:
 
 **flag:** `sdctf{1_f0unD_MY_p4TH_t0_E5c4pe_THE_JA1L:th3_3mpty_str1ng!}`
 
+### write-ups
+1. https://github.com/qhdwight/ctf-writeups/tree/master/sd-ctf-2021/rbash-negotiation-with-the-warden

@@ -21,3 +21,6 @@ The backdoor value of d can be used to bruteforce the correct internal state. Af
 
 **flag:** `sdctf{W0W_aR3_y0u_Th3_NSA}`
 
+### write-ups
+1. https://drive.protonmail.com/urls/R1QY0H8FWG#BlJTfKEvoC2h
+2. https://github.com/christheyankee/Kleptomaniac-SDCTF-Writeup-2022

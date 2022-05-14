@@ -23,3 +23,5 @@ Then run git commit. The trick is that to achieve RCE, add git hooks to the .git
 
 **flag:** `sdctf{4lw4y5_Us3_GIT_cl0nE_n3v3R_sn3ak_R3P0}`
 
+### write-ups
+1. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/MISC/Git_Bomb/

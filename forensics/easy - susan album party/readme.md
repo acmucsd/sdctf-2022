@@ -13,3 +13,10 @@ if you want to know what the title is a reference to, just google it
 
 **flag:** `sdctf{FFD8_th3n_S0ME_s7uff_FFD9}`
 
+### write-ups
+
+1. https://kenanb.notion.site/Susan-album-party-f68216f59e914c7886489adeee116827
+2. https://docs.google.com/document/d/1TskY2gMi_DlmkfEFkZeje1TmkWPfhNF9h13dzKCgF2g/edit?usp=sharing
+3. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/forensics.md
+4. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/FORENSICS/Susan_Album_Party/
+5. https://ctftime.org/writeup/33743

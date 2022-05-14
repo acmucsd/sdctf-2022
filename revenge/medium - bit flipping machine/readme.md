@@ -25,6 +25,4 @@ The binary will use C++ and thus allow reading lines with null characters. The s
 Intermediate Flag (first): point value: 110
 Final (second): point value: 130
 
-**flag:** `sdctf{s3Cr3T_C0d3_15_RaDIx26_b1t_p0SIti0n5}
-sdctf{nu11_t3rmin4tED_C_str1ngs_ar3_4_p41nFuL_l3GaCY}`
-
+**flags:** `sdctf{s3Cr3T_C0d3_15_RaDIx26_b1t_p0SIti0n5}`, `sdctf{nu11_t3rmin4tED_C_str1ngs_ar3_4_p41nFuL_l3GaCY}`

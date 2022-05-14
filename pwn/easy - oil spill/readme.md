@@ -15,3 +15,8 @@ https://blog.pwntools.com/posts/got-overwrite/
 
 **flag:** `sdctf{th4nks_f0r_S4V1nG_tH3_duCk5}`
 
+### write-ups
+1. https://4n0nym4u5.netlify.app/post/san-diego-ctf-2022/
+2. https://github.com/tj-oconnor/ctf-writeups/tree/main/sdctf/oilspill
+3. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/PWN/Oil_Spill/
+4. https://chovid99.github.io/posts/sandiego-ctf-2022/#oil-spill

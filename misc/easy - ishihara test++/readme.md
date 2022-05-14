@@ -11,3 +11,9 @@ In a rectangular SVG there are 10s of thousands of dots that are one of 6 almost
 
 **flag:** `sdctf{c0untle55_col0rfu1_c0lors_cov3ring_3veryth1ng}`
 
+# write-ups
+1. https://github.com/Happy-hub/CTF/tree/main/2022/SanDiegoCTF/ishihara-test
+2. https://sheeptester.github.io/longer-tweets/ctf/#a-svgcss-based-challenge
+3. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/misc.md#ishihara-test
+4. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/MISC/Ishihara_test/
+5. https://ctftime.org/writeup/33731

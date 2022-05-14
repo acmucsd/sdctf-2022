@@ -20,3 +20,5 @@ This is Turing complete because lambda calculus is Turing complete (allow defini
 
 **flag:** `sdctf{u5ing_l4mbDA5_t0_smUgg1e_m4licious_BYTECODEz}`
 
+### write-ups
+1. https://github.com/ninnikukawaii/write-ups/tree/master/San%20Diego%20CTF%202022/jail/turing-complete-safeeval

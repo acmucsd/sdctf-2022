@@ -21,3 +21,6 @@ Make sure it is solvable with https://www.guballa.de/vigenere-solver
 
 **flag:** `sdctf{couldntuseleetstringsinthisonesadlybutwemadeitextralongtocompensate}`
 
+### write-ups
+1. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/crypto.md
+2. https://gitlab.com/newyork167/ctf/-/tree/main/2022/SDCTF/Crypto/Vinegar

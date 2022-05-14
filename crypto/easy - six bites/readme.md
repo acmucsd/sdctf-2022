@@ -16,3 +16,6 @@ By using the knowledge that the key size is six bytes, players will hopefully co
 
 **flag:** `sdctf{KnOwN_PL1ANt3xT_A#acK}`
 
+### write-ups
+
+1. https://github.com/EanDudley30/CTF-Writeups/blob/647a79a9a6a2501bde19d742083b5780c0ecb1f4/SDCTF%202022/Six-Bites.md

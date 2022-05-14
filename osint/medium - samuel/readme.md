@@ -28,3 +28,8 @@ https://goo.gl/maps/rU45kRSDG54ozm4F9
 
 **flag:** `sdctf{32.875,-117.240}`
 
+# write-ups
+1. https://docs.google.com/document/d/1TskY2gMi_DlmkfEFkZeje1TmkWPfhNF9h13dzKCgF2g/edit
+2. https://github.com/drewd314/SDCTF-2022-OSINT-Writeups/blob/main/SDCTF2022OSINT.md#samuel
+3. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/osint.md#samuel
+4. https://github.com/ninnikukawaii/write-ups/blob/master/San%20Diego%20CTF%202022/osint/samuel/README.md

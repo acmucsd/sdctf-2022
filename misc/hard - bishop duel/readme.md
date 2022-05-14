@@ -26,6 +26,8 @@ You get the first flag by losing (making the black bishop capture the player: th
 
 After taking the other bishop one will win and get the second flag.
 
-**flag:** `sdctf{L0SiNG_1S_haLF_th3_BaTTl3}
-sdctf{bUt_w1nn1ng_1S_pr3ttY_niC3_T00}`
+**flags:** `sdctf{L0SiNG_1S_haLF_th3_BaTTl3}`, `sdctf{bUt_w1nn1ng_1S_pr3ttY_niC3_T00}`
 
+### write-ups
+1. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/misc.md#bishop-duel
+2. https://mikecat.github.io/ctf-writeups/2022/20220507_San_Diego_CTF_2022/MISC/Bishop_Duel/

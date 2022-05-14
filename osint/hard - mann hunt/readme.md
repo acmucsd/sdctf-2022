@@ -13,3 +13,9 @@ Multi-step sleuthing! Have the username exist on some Twitter where all of the c
 
 **flag:** `sdctf{MaNN_tH@t_w@s_Ann0YinG}`
 
+### write-ups
+
+1. https://bashcrash3rs.github.io/SDCTF-2022-Mann-Hunt
+2. https://github.com/bhavya-error404/CTFs-Writeups/blob/main/SDCTF/OSINT/Mann-hunt.md
+3. https://docs.google.com/document/d/1TskY2gMi_DlmkfEFkZeje1TmkWPfhNF9h13dzKCgF2g/edit
+4. https://github.com/thewhitecircle/ctf_writeups/blob/main/sdctf_2022/osint.md#mann-hunt
