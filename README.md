@@ -24,11 +24,11 @@ Each challenge is in its own subdirectory with its build files (Ex. Makefiles), 
 First time setup for deployment: do the following in the given order
 
 1. Setup [`kctf` environment](https://google.github.io/kctf/) (lol don't underestimate this)
-2. Run command `./build-all.sh`. This is necessary to generate both attachments and deployment files.
-3. Run command `kctf chal start` in every directory containing `challenge.yaml` (Tip: List them using `find . -name challenge.yaml`)
-You can also currently run challenges locally (without deploying to a running cluster) with `kctf chal debug docker`. See [the official docs](https://google.github.io/kctf/local-testing.html) for more information.
+2. Run command `kctf chal start` in every directory containing `challenge.yaml` (Tip: List them using `find . -name challenge.yaml`)
+You can also currently run challenges locally (without deploying to a running cluster) with `kctf chal debug docker`.
+See [the official docs](https://google.github.io/kctf/local-testing.html) for more information.
 
-After updating the source code of any challenge(s), remember to run `./build-all.sh` again (or the relevant `Makefile`s) so the attachment and/or deployment files can be updated. Then, run `kctf chal start` on the updated challenges to update the deployment.
+After updating the source code of any challenge(s), remember to run `kctf chal start` on the updated challenges to update the deployment.
 
 We recommend building/running everything in [Google Cloud Shell](https://cloud.google.com/shell), which has a lot of tools (Ex. `gcc`) already built in.
 
